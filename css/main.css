@@ -12,6 +12,7 @@ body {
     align-items: center;
     gap: 10px;
     text-align: center;
+    margin-top: 33vh;
 }
 #banner {
     /* display: flex; */
@@ -25,7 +26,8 @@ h3 {
     color: white;
     /* display: flex; */
     /* order: 1; */
-    background-color: green;
+    background-color: lightgreen;
+    padding: 10px;
 }
 #delete {
     display: flex;
