@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
     <script
 src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -12,31 +13,28 @@ crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <table id="homes" class="table">
-        <thead>
-            <tr>
-                <th>Address</th>
-                <th>Sq. Ft.</th>
-                <th>Bedrooms</th>
-                <th>Baths</th>
-                <th>Price</th>
-                <th></th>
-            </tr>
-        </thead>
+
+    <table id="table">
         <tbody>
+            <tr id="banner" style="background-color:lightgreen;">MY DEVELOPER SKILLS</tr>
             <tr>
-                <td>27374 Matterhorn Drive</td>
-                <td>1,664</td>
-                <td>3</td>
-                <td>2</td>
-                <td>$279,500</td>
-                <td><button class="btn btn-xs btn-danger">Remove</button></td>
+                <td><button id="delete">X</button></td>
+                <td>Cascading Style Sheets (CSS)</td>
             </tr>
+            <tr>
+                <td><button id="delete">X</button></td>
+                <td>Hypertext Markup Language (HTML)</td>
+            </tr>
+            <div id="input" class="input-group mb-3">
+                <input id="field" type="text" class="form-control" placeholder="type skills here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                <button id="button" class="btn btn-outline-secondary" type="button">ADD SKILL</button>
+                </div>
+            </div>
+            <!-- <input type="text" value="type skills here">
+            <button id="addBtn" value="ADD SKILL">ADD SKILL</button> -->
         </tbody>
     </table>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+
 </body>
 </html>

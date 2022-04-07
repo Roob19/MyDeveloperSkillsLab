@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #fff; */
+    display: grid;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: baseline; */
+    align-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+#banner {
+    display: flex;
+    order: 1;
+    /* flex-direction: row; */
+    background-color: lightgreen;
+    /* text-align: center; */
+    /* border: 3px solid lightgreen; */
+}
+#delete {
+    display: flex;
+    order: 2;
+    flex-shrink: 1;
+    background-color: red;
+    color: white;
+}
+td {
+    order: 2;
+    flex-basis: auto;
+    /* gap: 10px; */
+    flex: 2;
+    text-align: left;
+    /* text-indent: 3px; */
+    color: orange;
+    padding: 0.5em;
+}
+#input {
+    display: flex;
+    order: 3;
+    flex-basis: auto;
+    color: lightgrey;
+    border: 3px solid lightgreen;
+}
+#field{
+    display: flex;
+    flex: 2;
+}
+#button {
+    background-color: #fff;
+    color: green;
+}
+/* #addBtn {
+    order: 3;
+    flex-basis: auto;
+    grid-template-;
+} */
