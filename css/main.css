@@ -14,12 +14,18 @@ body {
     text-align: center;
 }
 #banner {
-    display: flex;
-    order: 1;
+    /* display: flex; */
+    /* order: 1; */
     /* flex-direction: row; */
-    background-color: lightgreen;
+    /* background-color: lightgreen; don't know what's going on here */
     /* text-align: center; */
     /* border: 3px solid lightgreen; */
+}
+h3 {
+    color: white;
+    /* display: flex; */
+    /* order: 1; */
+    background-color: green;
 }
 #delete {
     display: flex;
@@ -27,6 +33,7 @@ body {
     flex-shrink: 1;
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 td {
     order: 2;
@@ -52,6 +59,7 @@ td {
 #button {
     background-color: #fff;
     color: green;
+    cursor: pointer;
 }
 /* #addBtn {
     order: 3;
